@@ -1,0 +1,47 @@
+[INFO] Executing command: /Users/zax/Documents/Cov_Scan2/bin/cov-manage-emit --dir /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int create
+[INFO] Telemetry is enabled
+[INFO] Executing command: /Users/zax/Documents/Cov_Scan2/bin/cov-manage-emit --dir /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int list-capture-diagnostics
+[INFO] Executing action Delete compiler configurations for intermediate directory '/Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int'
+[INFO] Executing action Configure build compiler: /Users/zax/Documents/Cov_Scan2/bin/cov-configure -c /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int/coverity-cli/build-compiler-configs/coverity_config.xml --compiler gcc --comptype clangcc --template
+[INFO] Executing action Configure build compiler: /Users/zax/Documents/Cov_Scan2/bin/cov-configure -c /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int/coverity-cli/build-compiler-configs/coverity_config.xml --compiler cc --comptype gcc --template
+[INFO] Executing action Configure build compiler: /Users/zax/Documents/Cov_Scan2/bin/cov-configure -c /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int/coverity-cli/build-compiler-configs/coverity_config.xml --compiler c++ --comptype g++ --template
+[INFO] Executing action Configure build compiler: /Users/zax/Documents/Cov_Scan2/bin/cov-configure -c /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int/coverity-cli/build-compiler-configs/coverity_config.xml --compiler clang --comptype clangcc --template
+[INFO] Executing action Configure build compiler: /Users/zax/Documents/Cov_Scan2/bin/cov-configure -c /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int/coverity-cli/build-compiler-configs/coverity_config.xml --compiler java --comptype java --template
+[INFO] Executing action Configure build compiler: /Users/zax/Documents/Cov_Scan2/bin/cov-configure -c /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int/coverity-cli/build-compiler-configs/coverity_config.xml --compiler go --comptype go --template
+[INFO] Executing action Configure build compiler: /Users/zax/Documents/Cov_Scan2/bin/cov-configure -c /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int/coverity-cli/build-compiler-configs/coverity_config.xml --compiler ccache --comptype prefix --template
+[INFO] Executing action Configure build compiler: /Users/zax/Documents/Cov_Scan2/bin/cov-configure -c /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int/coverity-cli/build-compiler-configs/coverity_config.xml --compiler kotlinc --comptype kotlinc --template
+[WARNING] Template config template-java-config-0 already exists for java and will be reused. 
+[WARNING] Template config template-apt-config-0 already exists for apt and will be reused. 
+[WARNING] Template config template-javaw-config-0 already exists for javaw and will be reused. 
+[INFO] Executing action Configure build compiler: /Users/zax/Documents/Cov_Scan2/bin/cov-configure -c /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int/coverity-cli/buildless-compiler-configs/coverity_config.xml --dart
+[INFO] Executing action Configure build compiler: /Users/zax/Documents/Cov_Scan2/bin/cov-configure -c /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int/coverity-cli/buildless-compiler-configs/coverity_config.xml --javascript
+[INFO] Executing action Configure build compiler: /Users/zax/Documents/Cov_Scan2/bin/cov-configure -c /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int/coverity-cli/buildless-compiler-configs/coverity_config.xml --php
+[INFO] Executing action Configure build compiler: /Users/zax/Documents/Cov_Scan2/bin/cov-configure -c /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int/coverity-cli/buildless-compiler-configs/coverity_config.xml --python
+[INFO] Executing action Configure build compiler: /Users/zax/Documents/Cov_Scan2/bin/cov-configure -c /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int/coverity-cli/buildless-compiler-configs/coverity_config.xml --ruby
+[INFO] Executing action Configure build compiler: /Users/zax/Documents/Cov_Scan2/bin/cov-configure -c /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int/coverity-cli/buildless-compiler-configs/coverity_config.xml --java-buildless
+[INFO] Executing action Configure build compiler: /Users/zax/Documents/Cov_Scan2/bin/cov-configure -c /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int/coverity-cli/buildless-compiler-configs/coverity_config.xml --comptype capture-config-files --file-regex $capture-config-files$ --template
+[WARNING] Configuration already exists for file regex $capture-config-files$
+          and it will not be updated.
+[INFO] Loading compiler config '/Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int/coverity-cli/build-compiler-configs/coverity_config.xml'
+[INFO] Loading compiler config '/Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int/coverity-cli/buildless-compiler-configs/coverity_config.xml'
+[INFO] Executing action Emit files using buildless capture: /Users/zax/Documents/Cov_Scan2/bin/cov-internal-capture-files --dir /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int -c /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int/coverity-cli/buildless-compiler-configs/coverity_config.xml --ticker-mode no-spin --append-log --capture-list-file /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int/coverity-cli/capture-file-list-787152912
+[INFO] Buildless capture started.
+[INFO] Emitting 759 Files.
+|0----------25-----------50----------75---------100|
+****************************************************
+[INFO] Buildless capture completed.
+
+[INFO] Executing action deleteResidualTUs /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int
+[INFO] Executing command: /Users/zax/Documents/Cov_Scan2/bin/cov-manage-emit --dir /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int list-capture-diagnostics
+[INFO] Executing action Invalidate capture results
+[INFO] Executing action Invoke cov-security-da: /Users/zax/Documents/Cov_Scan2/bin/cov-security-da --dir /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int --ticker-mode no-spin
+[INFO] Executing command: /Users/zax/Documents/Cov_Scan2/bin/cov-manage-emit --dir /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end/cov-int list-capture-diagnostics
+Capture summary:
+    SUCCEEDED: 759
+    INCOMPLETE: 0
+    FAILED: 0
+    IGNORED: 5
+    FILES CAPTURED: 759
+    LINES OF CODE: 259365
+[INFO] Capture phase took 26.082s.
+[INFO] To analyze your project, type '/Users/zax/Documents/Cov_Scan2/bin/coverity analyze --project-dir /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end --dir cov-int'.

@@ -1,0 +1,3 @@
+Native Compiler and extra args: ./ 
+Working directory: /Users/zax/Documents/Project_TPA_SCAN/010969/nestjs-master-back-end
+Comptype: kotlinc
